@@ -1,34 +1,25 @@
 <?php
 
-namespace Bookstore\Tests\Domain\Customer;
+namespace Bookstore\Tests\Domain;
 
 use Bookstore\Domain\Sale;
 use PHPUnit\Framework\TestCase;
 
 class SaleTest extends TestCase
 {
-//    public function testNewSaleHasNoBooks()
+//    public function testCanCreate()
 //    {
 //        $sale = new Sale();
-//
-//        $this->assertEmpty($sale->getBooks(), 'When new, sale should have no books');
 //    }
 
-    public function testAddNewBook()
+    public function testWhenCreatedBookListIsEmpty()
     {
         $sale = new Sale();
-        $sale->addBook(123);
-
-        $this->assertSame([123 => 1], $sale->getBooks(), 'Books array does not match');
+        $this->assertEmpty($sale->getBooks());
     }
 
-    public function testAddMultipleBooks()
+    public function testSpecifyAmountBooks()
     {
-        $sale = new Sale();
-        $sale->addBook(123, 4);
-        $sale->addBook(456, 2);
-        $sale->addBook(456, 8);
 
-        $this->assertSame([123 => 4, 456 => 10], $sale->getBooks(), 'Books are not as expected');
     }
 }
