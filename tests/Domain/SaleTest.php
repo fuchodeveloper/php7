@@ -18,8 +18,8 @@ class SaleTest extends TestCase
         $this->assertEmpty($sale->getBooks());
     }
 
-    public function testSpecifyAmountBooks()
-    {
-
-    }
+//    public function testSpecifyAmountBooks()
+//    {
+//
+//    }
 }
