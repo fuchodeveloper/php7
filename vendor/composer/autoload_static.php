@@ -15,6 +15,14 @@ class ComposerStaticInita6f9f613ac0fc61ebbf9894a26232ad1
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
+        'P' => 
+        array (
+            'Psr\\Log\\' => 8,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
@@ -26,6 +34,7 @@ class ComposerStaticInita6f9f613ac0fc61ebbf9894a26232ad1
         ),
         'B' => 
         array (
+            'Bookstore\\Tests\\' => 16,
             'Bookstore\\' => 10,
         ),
     );
@@ -41,6 +50,14 @@ class ComposerStaticInita6f9f613ac0fc61ebbf9894a26232ad1
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -52,6 +69,10 @@ class ComposerStaticInita6f9f613ac0fc61ebbf9894a26232ad1
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'Bookstore\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Bookstore\\' => 
         array (
@@ -69,10 +90,6 @@ class ComposerStaticInita6f9f613ac0fc61ebbf9894a26232ad1
         ),
         'P' => 
         array (
-            'Psr\\Log\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/psr/log',
-            ),
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
